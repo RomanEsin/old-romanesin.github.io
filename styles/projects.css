@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: sans-serif;
+    color: #414141;
+}
+
+.project {
+    margin-left: 12pt;
+    margin-right: 12pt;
+    margin-top: 16pt;
+}
+
+.p-title {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.p-description {
+    font-size: 16pt;
+}
+
+.inline {
+    display: inline;
+}
+
+.link {
+    color: lightblue;
+}
+
+.sep {
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    border-top: 2px solid lightblue;
+}
+
+.image {
+    height: 300pt;
+    border-radius: 10pt;
+    margin-left: 8pt;
+    margin-right: 8pt;
+    box-shadow: 0 0 10pt #838383;
+}
+
+.no-shadow {
+    box-shadow: none;
+}
+
+.resume {
+    padding-left: 10pt;
+}
