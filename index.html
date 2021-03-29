@@ -6,6 +6,7 @@
     <style>
         * {
             font-family: sans-serif;
+            color: #414141;
         }
 
         main {
@@ -13,7 +14,7 @@
         }
 
         .sep {
-            border-top: 3px solid #226082;
+            border-top: 2px solid #226082;
         }
 
         .accent-color {
@@ -26,7 +27,31 @@
 
         p {
             display: inline;
+        }
+
+        .padded {
             padding: 8pt;
+        }
+
+        .sec-title {
+            display: inline;
+            text-transform: uppercase;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .description {
+            padding-top: 12pt;
+        }
+
+        .items {
+            padding-top: 8pt;
+        }
+
+        ul {
+            margin-top: 4pt;
         }
     </style>
 </head>
@@ -37,14 +62,38 @@
         <div>
             <div class="sep"></div>
             <h3 class="accent-color">Contacts</h3>
-            <p>esinromanswift@gmail.com</p>
-            <p>|</p>
-            <p>github.com/RomanEsin</p>
-            <p>|</p>
-            <p>+7(914)69-05-228</p>
+            <p class="padded">esinromanswift@gmail.com</p>
+            <p class="padded">|</p>
+            <p class="padded">github.com/RomanEsin</p>
+            <p class="padded">|</p>
+            <p class="padded">+7 (914) 69-05-228</p>
         </div>
 
-        <h3></h3>
+        <div>
+            <h3 class="accent-color">Education</h3>
+            <div class="sep"></div>
+            <div class="description">
+                <p class="sec-title bold">Far eastern federal university</p>
+                <p class="sec-title">(FEFU), Vladivostok - Computer science, bs - 2020 - Present</p>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="accent-color">Experience</h3>
+            <div class="sep"></div>
+            <div class="description">
+                <p class="sec-title bold">Driver Technologies Inc, </p>
+                <p class="sec-title">Remote - 2020 - present</p>
+            </div>
+            <div class="items">
+                <i>iOS Developer Intern</i>
+                <ul>
+                    <li>Developed and designed video sharing screen from scratch</li>
+                    <li>Developed the speed limit feature</li>
+                    <li>Developed the new signup / sign in screen</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
