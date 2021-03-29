@@ -18,7 +18,7 @@
 }
 
 .project:hover {
-    box-shadow: 0 0 10pt gray;
+    box-shadow: 0 0 10pt #b8b8b8;
 }
 
 .main-header {
