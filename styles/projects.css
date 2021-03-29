@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #ececec;
 }
 
 * {
@@ -7,10 +8,26 @@ body {
     color: #414141;
 }
 
+.project-content {
+    margin-left: 16pt;
+    margin-right: 16pt;
+    padding-top: 16pt;
+    padding-bottom: 16pt;
+}
+
 .project {
     margin-left: 12pt;
     margin-right: 12pt;
     margin-top: 16pt;
+
+    background-color: white;
+    border-radius: 32pt;
+
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+.project:hover {
+    box-shadow: 0 0 10pt gray;
 }
 
 .p-title {
@@ -20,10 +37,6 @@ body {
 
 .p-description {
     font-size: 16pt;
-}
-
-.inline {
-    display: inline;
 }
 
 .link {
@@ -41,6 +54,7 @@ body {
     border-radius: 10pt;
     margin-left: 8pt;
     margin-right: 8pt;
+    margin-bottom: 8pt;
     box-shadow: 0 0 10pt #838383;
 }
 
