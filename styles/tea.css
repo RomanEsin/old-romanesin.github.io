@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: #ececec;
+}
+
+* {
+    font-family: sans-serif;
+    color: #414141;
+}
+
+.centered {
+    margin-top: 50pt;
+    text-align: center;
+}
