@@ -50,6 +50,14 @@
             padding-top: 8pt;
         }
 
+        .resume-item {
+
+        }
+
+        .large-sec {
+            padding-top: 20pt;
+        }
+
         ul {
             margin-top: 4pt;
         }
@@ -57,19 +65,20 @@
 </head>
 <body>
     <div class="main">
-        <h1 class="title accent-color">Roman Esin</h1>
-
-        <div>
+        <div style="text-align: center">
+            <h1 class="title accent-color">Roman Esin</h1>
             <div class="sep"></div>
             <h3 class="accent-color">Contacts</h3>
             <p class="padded">esinromanswift@gmail.com</p>
             <p class="padded">|</p>
-            <p class="padded">github.com/RomanEsin</p>
+            <a href="https://github.com/RomanEsin" target="_blank" style="display: inline">
+                <p class="padded">github.com/RomanEsin</p>
+            </a>
             <p class="padded">|</p>
             <p class="padded">+7 (914) 69-05-228</p>
         </div>
 
-        <div>
+        <div class="large-sec">
             <h3 class="accent-color">Education</h3>
             <div class="sep"></div>
             <div class="description">
@@ -78,20 +87,84 @@
             </div>
         </div>
 
-        <div>
+        <div class="large-sec">
             <h3 class="accent-color">Experience</h3>
             <div class="sep"></div>
-            <div class="description">
-                <p class="sec-title bold">Driver Technologies Inc, </p>
-                <p class="sec-title">Remote - 2020 - present</p>
+
+            <div class="resume-item">
+                <div class="description">
+                    <p class="sec-title bold">Driver Technologies Inc,</p>
+                    <p class="sec-title">Remote - 2020 - present</p>
+                </div>
+                <div class="items">
+                    <i>iOS Developer Intern</i>
+                    <ul>
+                        <li>Developed and designed video sharing screen from scratch</li>
+                        <li>Developed the speed limit feature</li>
+                        <li>Developed the new signup / sign in screen</li>
+                    </ul>
+                </div>
             </div>
-            <div class="items">
-                <i>iOS Developer Intern</i>
-                <ul>
-                    <li>Developed and designed video sharing screen from scratch</li>
-                    <li>Developed the speed limit feature</li>
-                    <li>Developed the new signup / sign in screen</li>
-                </ul>
+
+            <div class="resume-item">
+                <div class="description">
+                    <p class="sec-title bold">Poseidon,</p>
+                    <p class="sec-title">FEFU - Sep - Dec 2020</p>
+                </div>
+                <div class="items">
+                    <i>iOS Developer</i>
+                    <ul>
+                        <li>Developed the "Poseidon - Laundry Washing" iOS app from scratch</li>
+                        <li>Designed the interface to conform to HIG</li>
+                        <li>Designed an API to make beatiful network calls</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item">
+                <div class="description">
+                    <p class="sec-title bold">2DLAB, </p>
+                    <p class="sec-title">Remote - 2020 - present</p>
+                </div>
+                <div class="items">
+                    <i>Python Backend Developer</i>
+                    <ul>
+                        <li>Developed the backend API with public and private methods</li>
+                        <li>Implemented OAuth2</li>
+                        <li>Implemented CI/CD on the server</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item">
+                <div class="description">
+                    <p class="sec-title bold">FARPOST, </p>
+                    <p class="sec-title">Vladivostok - 2021 - present</p>
+                </div>
+                <div class="items">
+                    <i>Junior iOS Developer</i>
+                    <ul>
+                        <li>Worked on the cross platform web app</li>
+                        <li>Translated Obj-c code in Swift</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="large-sec">
+            <h3 class="accent-color">Awards</h3>
+            <div class="sep"></div>
+
+            <div class="description">
+                <p>APPLE</p>
+                <p class="bold sec-title">WWDC Scholarship</p>
+                <p class="sec-title">- San Jose, CA - 2019</p>
+            </div>
+
+            <div class="description">
+                <p>APPLE</p>
+                <p class="bold sec-title">Swift student challenge</p>
+                <p class="sec-title">- 2020</p>
             </div>
         </div>
     </div>
